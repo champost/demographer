@@ -33,17 +33,16 @@ environment using the directions in the `Virtual Environment`_ section below.
 Once Python 2.7 (or a virtual environment with Python 2.7) is installed, 
 you can install DemoGrapher from the terminal prompt in one of two ways:
 
-1. If you have an Anaconda Python 2.7 release, install using conda ::
+1. If you have an Anaconda Python 2.7 release, you can install using conda. From any
+   command prompt just type ::
 
     $ conda config --add channels ejewett
     $ conda install demographer
     
-   or use ::
+   or if you are using a `virtual environment`_ type  ::
    
     $ conda install -n yourenvironmentname demographer
     
-   if you are using a `virtual environment`_.
-
 2. If you have a different Python 2.7 release, install using pip ::
 
     $ pip install demographer_popgen   

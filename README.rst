@@ -29,9 +29,9 @@ your Python version at a terminal prompt by typing ::
     $ python --version
     
 If you do not have Python 2.7 installed, you can download it. The Anaconda_ 
-2.7 distribution contains all of the packages required for DemoGrapher. However,
-any python 2.7 distribution should be fine. If you already have Anaconda_ 3.6
-(which is the Python 3.X release of Anaconda) you can create a Python 2.7
+Python 2.7 distribution contains all of the packages required for DemoGrapher. However,
+any Python 2.7 distribution should be fine. If you already have Anaconda_ Python 3.X
+(e.g., the Python 3.6 release of Anaconda) you can create a Python 2.7
 environment using the directions in the `Virtual Environment`_ section below.
 
 Once Python 2.7 (or a virtual environment with Python 2.7) is installed, 

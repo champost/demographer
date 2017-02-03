@@ -30,8 +30,8 @@ any python 2.7 distribution should be fine. If you already have Anaconda_ 3
 (which is the Python 3.X release of Anaconda) you can create a Python 2.7
 environment using the directions in the `Virtual Environment`_ section below.
 
-Once Python 2.7 (or a virtual environment with Python 2.7) is installed and 
-activated, you can install DemoGrapher from the terminal prompt in one of two ways:
+Once Python 2.7 (or a virtual environment with Python 2.7) is installed, 
+you can install DemoGrapher from the terminal prompt in one of two ways:
 
 1. If you have an Anaconda Python 2.7 release, install using conda ::
 

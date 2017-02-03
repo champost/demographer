@@ -57,9 +57,7 @@ activated, you can install DemoGrapher from the terminal prompt in one of two wa
 
 The pip or conda command should download all the necessary files. However, if
 you get a "No module named" error, you can individually download the necessary
-packages using
-
-    $ pip install packagename
+packages by following the steps in the Troubleshooting_ section.
 
 
 .. _Anaconda: https://www.continuum.io/downloads
@@ -81,10 +79,10 @@ You can generate a virtual environment for DemoGrapher in a few ways.
      $ conda create -n yourchoiceofname python=2.7 anaconda
     
    This creates a new python 2.7 environment named yourchoiceofname
-   in your anaconda distribution [5]_. Make the new Python 2.7 
+   in your anaconda distribution [1]_. Make the new Python 2.7 
    environment temporarily active by typing ::
 
-     $ source activate py27
+     $ source activate yourchoiceofname
    
    (To deactivate yourchoiceofname just type $ deactiveate or open
    a new terminal window). To remove yourchoiceofname entirely type ::
@@ -107,8 +105,8 @@ You can generate a virtual environment for DemoGrapher in a few ways.
      $ virtualenv <path to a convenient location for your virtual environment directory>
      $ source <path to newly created virtual environment directory>/bin/activate
 
-   For example, if I want to put the virtual environment in my user directory
-   I would personally type
+   For example, if I wanted to put the virtual environment in my user directory
+   I would type ::
 
 	 $ virtualenv /Users/ethanjewett/DemoGrapher_venv
 	 $ source DemoGrapher_venv/bin/activate
@@ -130,7 +128,7 @@ you need did not download automatically. For example, you might get the error
 
      $ conda install module_name
     
-   or
+   or ::
    
      $ pip install module_name
 
@@ -140,7 +138,7 @@ you need did not download automatically. For example, you might get the error
      
 
 2. If you are not using Anaconda, type and you are not using a virtual
-   environment (see `Virtual Environment`_), type:
+   environment (see `Virtual Environment`_), type ::
    
      $ pip install module_name
      
@@ -154,7 +152,7 @@ you need did not download automatically. For example, you might get the error
      $ pip install module_name
 
 
-.. [5] Unfortunately, creating a virtual environment with conda does not install 
+.. [1] Unfortunately, creating a virtual environment with conda does not install 
        all of the nice packages that come with Anaconda. So you may have to 
        install them manually if they do not download properly using the
        conda install command in the `Installation Instructions`_ section.

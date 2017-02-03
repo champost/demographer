@@ -87,7 +87,7 @@ You can generate a virtual environment for DemoGrapher in a few ways.
    (To deactivate yourchoiceofname just type $ deactiveate or open
    a new terminal window). To remove yourchoiceofname entirely type ::
    
-     $ conda remove -n yourchoiceofname -all   
+     $ conda remove -n yourchoiceofname --all   
      
 2. If you are using a Python 2.7 distribution that is not Anaconda,
    you can make a virtual environment using virtualenv. First make 

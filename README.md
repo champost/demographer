@@ -18,7 +18,7 @@ Quick Start Guide
    can be downloaded from the GitHub site.
 
 
-Installation Instructions
+.. _Installation Instructions
 =========================
 
 DemoGrapher was developed in Python 2.7 using Enthought Canopy. Check

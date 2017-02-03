@@ -5,7 +5,7 @@ DemoGrapher is a software tool for drawing and exploring demographic histories.
 Quick Start Guide
 =================
 
-1. Install DemoGrapher using the `installation instructions`_.
+1. Install DemoGrapher using the `Installation Instructions`_.
    
 2. Launch DemoGrapher by typing ::
 
@@ -18,7 +18,7 @@ Quick Start Guide
    can be downloaded from the GitHub site.
 
 
-Installation instructions
+Installation Instructions
 =========================
 
 DemoGrapher was developed in Python 2.7 using Enthought Canopy. Check

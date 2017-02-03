@@ -1,5 +1,3 @@
-# DemoGrapher
-
 DemoGrapher is a software tool for drawing and exploring demographic histories.
 
 Quick Start Guide

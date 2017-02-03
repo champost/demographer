@@ -25,25 +25,41 @@ your Python version at a terminal prompt by typing ::
     $ python --version
     
 If you do not have Python 2.7 installed, you can download it. The Anaconda_ 
-2 distribution contains all of the packages required for DemoGrapher; however
+2 distribution contains all of the packages required for DemoGrapher. However,
 any python 2.7 distribution should be fine. If you already have Anaconda_ 3
-(which is the Python 3.X release of Anaconda), you can create a Python 2.7
+(which is the Python 3.X release of Anaconda) you can create a Python 2.7
 environment using the directions in the `Virtual Environment`_ section below.
 
 Once Python 2.7 (or a virtual environment with Python 2.7) is installed and 
-activated, you can install DemoGrapher from the terminal prompt in one of two ways
+activated, you can install DemoGrapher from the terminal prompt in one of two ways:
 
 1. If you have an Anaconda Python 2.7 release, install using conda ::
 
+    $ conda config --add channels ejewett
+    $ conda install demographer
+    
+   or use ::
+   
+    $ conda install -n yourenvironmentname demographer
+    
+   if you are using a `virtual environment`_.
+
 2. If you have a different Python 2.7 release, install using pip ::
 
+    $ pip install demographer_popgen   
+    
+   or use ::
+   
+    $ source <path to virtual environment>
     $ pip install demographer_popgen
+    
+   if you're using a virtual environment
 
 The pip or conda command should download all the necessary files. However, if
 you get a "No module named" error, you can individually download the necessary
 packages using
 
-    % pip install packagename
+    $ pip install packagename
 
 
 .. _Anaconda: https://www.continuum.io/downloads
@@ -68,7 +84,7 @@ You can generate a virtual environment for DemoGrapher in a few ways.
    in your anaconda distribution [5]_. Make the new Python 2.7 
    environment temporarily active by typing ::
 
-	 $ source activate py27
+     $ source activate py27
    
    (To deactivate yourchoiceofname just type $ deactiveate or open
    a new terminal window). To remove yourchoiceofname entirely type ::

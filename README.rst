@@ -1,4 +1,9 @@
-**DemoGrapher** is a software tool for drawing and exploring demographic histories.
+**DemoGrapher** is a software tool for interactively drawing and exploring demographic histories.
+
+   - Draw population histories for talks and papers.
+   - Generate input commands for *ms*, *msprime*, and *scrm*.
+   - Explore summary statistics in real time.
+
 
 Quick Start Guide
 =================

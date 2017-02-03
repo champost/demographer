@@ -12,8 +12,8 @@ Quick Start Guide
    At a terminal prompt. This command launches the GUI.
 
 3. The commands for DemoGrapher are listed in the output box when
-   the program opens. You can also watch the tutorial video that
-   can be downloaded from the GitHub site.
+   the program opens. You can also watch the tutorial video at
+   the GitHub site.
 
 
 Installation instructions

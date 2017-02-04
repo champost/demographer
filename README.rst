@@ -162,9 +162,8 @@ you need did not download automatically. For example, you might get the error
      $ pip install module_name
 
 
-.. [1] Unfortunately, creating a virtual environment with conda does not install 
-       all of the nice packages that come with Anaconda. So you may have to 
-       install them manually if they do not download properly using the
-       conda install command in the `Installation Instructions`_ section.
+.. [1] Unfortunately, sometimes creating a virtual environment with conda does not install 
+       all of the nice packages. You may have to install some of them manually if they do 
+       not download properly using the conda install command in the `Installation Instructions`_ section.
        If you run into an error while installing or trying to run DemoGrapher,
        see Troubleshooting_).

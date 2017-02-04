@@ -12,7 +12,7 @@
    :align: left
 
 
-Quick Start Guide
+Quick start guide
 =================
 
 1. Install DemoGrapher using the `installation instructions`_.
@@ -39,8 +39,9 @@ your Python version at a terminal prompt by typing ::
 If you do not have Python 2.7 installed, you can download it. The Anaconda_ 
 Python 2.7 distribution contains all of the packages required for DemoGrapher. However,
 any Python 2.7 distribution should be fine. If you already have Anaconda_ Python 3.X
-(e.g., the Python 3.6 release of Anaconda) you can create a Python 2.7
-environment using the directions in the `Virtual Environment`_ section below.
+(e.g., the Python 3.6 release of Anaconda) you can create a Python 2.7 `virtual environment`_
+that behaves like a separate Python distribution using the directions in 
+the `Creating a virtual environment`_ section below.
 
 Once Python 2.7 (or a virtual environment with Python 2.7) is installed, 
 you can install DemoGrapher from the terminal prompt in one of two ways:
@@ -48,23 +49,21 @@ you can install DemoGrapher from the terminal prompt in one of two ways:
 1. If you have an Anaconda Python 2.7 release, you can install using conda. From any
    command prompt just type ::
 
-    $ conda config --add channels ejewett
-    $ conda install demographer
+    $ conda install -c ejewett demographer
     
    or if you are using a `virtual environment`_ type  ::
    
-    $ conda install -n yourenvironmentname demographer
+    $ conda install -c ejewett demographer -n yourenvironmentname
     
 2. If you have a different Python 2.7 release, install using pip ::
 
     $ pip install demographer_popgen   
     
-   or use ::
+   or if you're using a virtual environment type ::
    
     $ source <path to virtual environment>
     $ pip install demographer_popgen
     
-   if you're using a virtual environment
 
 The pip or conda command should download all the necessary files. However, if
 you get a "No module named" error, you can individually download the necessary
@@ -74,8 +73,8 @@ packages by following the steps in the Troubleshooting_ section.
 .. _Anaconda: https://www.continuum.io/downloads
 
 
-Virtual Environment
--------------------
+Creating a virtual environment
+------------------------------
 DemoGrapher installs several dependent packages. Sometimes it is best to
 keep these packages within a `virtual environment`_ so that they don't
 interfere with the function of other Python software you have installed
@@ -84,25 +83,25 @@ DemoGrapher relies on. You may also want to use a virtual environment if
 you do not have root access to your system or if you're on a shared computer.
 You can generate a virtual environment for DemoGrapher in a few ways.
 
-1. If you have an Anaconda Python release (type $ python --version to check)
+1. If you have an Anaconda Python release (type ``$ python --version`` to check)
    you can create a new virtual environment simply by typing ::
    
      $ conda create -n yourchoiceofname python=2.7 anaconda
     
-   This creates a new python 2.7 environment named yourchoiceofname
+   This creates a new python 2.7 environment named *yourchoiceofname*
    in your anaconda distribution [1]_. Make the new Python 2.7 
    environment temporarily active by typing ::
 
      $ source activate yourchoiceofname
    
-   (To deactivate yourchoiceofname just type $ deactiveate or open
-   a new terminal window). To remove yourchoiceofname entirely type ::
+   (To deactivate *yourchoiceofname* just type ``$ deactiveate`` or open
+   a new terminal window). To remove *yourchoiceofname* entirely, type ::
    
      $ conda remove -n yourchoiceofname --all   
      
 2. If you are using a Python 2.7 distribution that is not Anaconda,
-   you can make a virtual environment using virtualenv. First make 
-   sure you have virtualenv installed. To check this, type ::
+   you can make a virtual environment using *virtualenv*. First make 
+   sure you have *virtualenv* installed. To check this, type ::
    
      $ virtualenv --version
 
@@ -129,13 +128,13 @@ You can generate a virtual environment for DemoGrapher in a few ways.
 
 
 Troubleshooting
--------------------
+---------------
 When installing DemoGrapher with conda or pip, you may find that the packages
 you need did not download automatically. For example, you might get the error
 "No module named module_name" when running DemoGrapher. If this happens
 
 1. If you are using an Anaconda Python 2.7 distribution (and you are not
-   using a virtual environment (see `Virtual Environment`_), type ::
+   using a virtual environment (see `Creating a virtual environment`_), type ::
 
      $ conda install module_name
     
@@ -149,7 +148,7 @@ you need did not download automatically. For example, you might get the error
      
 
 2. If you are not using Anaconda, type and you are not using a virtual
-   environment (see `Virtual Environment`_), type ::
+   environment (see `Creating a virtual environment`_), type ::
    
      $ pip install module_name
      

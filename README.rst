@@ -162,7 +162,5 @@ you need did not download automatically. For example, you might get the error
 
 
 .. [1] Unfortunately, sometimes creating a virtual environment with conda does not install 
-       all of the nice packages. You may have to install some of them manually if they do 
-       not download properly using the conda install command in the `Installation Instructions`_ section.
-       If you run into an error while installing or trying to run DemoGrapher,
-       see Troubleshooting_).
+       all of the necessary packages. You might have to install some of them manually if they do 
+       not download properly. To install them, use the conda install command in the `Troubleshooting`_ section.

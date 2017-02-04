@@ -147,8 +147,7 @@ you need did not download automatically. For example, you might get the error
      $ conda install -n yourenvironmentname module_name
      
 
-2. If you are not using Anaconda, type and you are not using a virtual
-   environment (see `Creating a virtual environment`_), type ::
+2. If you are not using Anaconda, type ::
    
      $ pip install module_name
      

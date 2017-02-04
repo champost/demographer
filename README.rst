@@ -4,6 +4,14 @@
    - Explore summary statistics in real time.
 
 
+.. image:: https://github.com/ejewett/demographer/blob/master/DemoGrapherFeatures.png
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+   :alt: DemoGrapherFeatures... Guess you'll just have to download it to see them:)
+   :align: left
+
+
 Quick Start Guide
 =================
 

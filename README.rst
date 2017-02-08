@@ -1,7 +1,7 @@
 **DemoGrapher** is a software tool for interactively drawing and exploring demographic histories.
 
    - Explore summary statistics in real time.
-   - Generate input commands automatically for *ms*, *msprime*, and *scrm* (more to come!).
+   - Generate input commands automatically for *ms*, *msprime*, and *scrm* (more coming soon!).
 
 .. image:: https://github.com/ejewett/demographer/blob/master/DemoGrapherFeatures.png
    :height: 100px

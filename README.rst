@@ -99,6 +99,10 @@ You can generate a virtual environment for DemoGrapher in a few ways.
    
      $ conda remove -n yourchoiceofname --all   
      
+   To see a list of existing virtual environments, type ::
+   
+     $ conda info --envs
+     
 2. If you are using a Python 2.7 distribution that is not Anaconda,
    you can make a virtual environment using *virtualenv*. First make 
    sure you have *virtualenv* installed. To check this, type ::
